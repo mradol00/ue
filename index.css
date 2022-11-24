@@ -1,0 +1,120 @@
+body {margin: 0; padding: 0; overflow-x: hidden;}
+
+.container {
+	padding: 10px 0 10px 0;
+	margin-left: auto;
+  margin-right: auto;
+	max-width: 1120px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+.top {position: sticky; box-shadow: 0 10px 4px -4px rgba(182, 179, 170, 0.692);}
+
+.logo {vertical-align: middle;}
+
+.enter_bag {float: right;}
+
+.enter { 
+  border-radius: 3px; 
+  border-style: solid; 
+  border-color: rgba(216, 216, 216, 0.5); 
+  background-color: white;
+	padding: 7px 10px 7px 10px;
+	font-size: 11px;
+	vertical-align: middle;
+}
+
+.bag {margin-left: 20px; margin-right: 5px; vertical-align: middle;}
+
+.search { 
+	color: rgb(216, 216, 216);
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-bottom-color: rgb(216, 216, 216); border-bottom-style: solid; border-bottom-width: 1px; 
+}
+
+.mos {}
+
+.blocks {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	float: left;
+}
+
+.block img {
+	width: 100%; /* Ширина изображений */
+  height: 100%; /* Высота изображении */
+  object-fit: cover; /* Вписываем фотографию в область */
+}
+
+.block {padding: 0;}
+
+.titl {font-size: 16px; padding-top: 5px; padding-bottom: 5px;}
+
+.kitchen {color: rgb(155, 155, 155); font-size: 12px; padding-bottom: 5px;}
+
+.time {font-size: 12px;}
+
+.floor {background-color: #262626; color: white;}
+
+.floor_top {
+	max-height: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom-color: rgb(109, 108, 108); border-bottom-style: solid; border-bottom-width: 1px;
+}
+
+.floor_body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items:flex-start;
+	border-bottom-color: rgb(109, 108, 108); border-bottom-style: solid; border-bottom-width: 1px;
+	line-height: 35px;
+	font-size: 12px;
+}
+
+.floor_apps {
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-color: rgb(109, 108, 108); 
+	border-bottom-style: solid; 
+	border-bottom-width: 1px;
+	text-align: center;
+}
+
+.floor_floor {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items:flex-start;
+}
+
+.select {background-color: #3B3B3B; color: white; border: none; padding: 7px 7px 7px 10px; border-radius: 1px;}
+
+.arrow{
+	background-color: #59BD5A; 
+	border-radius: 3px; 
+	width: 80px; 
+	height: 80px; 
+	border-color: transparent;
+	float: right;
+	bottom: 0;
+	position: fixed;
+}
